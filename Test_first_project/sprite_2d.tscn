@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://c37a58pedcfn5"]
+
+[ext_resource type="Texture2D" uid="uid://rtjseac454qw" path="res://640px-Voskhod_Rocket-removebg-preview.png" id="1_q4q55"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_8ukae"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(88, 348)
+scale = Vector2(0.574803, 0.205285)
+texture = ExtResource("1_q4q55")
+script = ExtResource("2_8ukae")
